@@ -34,7 +34,7 @@ NVIDIA_RELEASE   = $(VERSION)
 BRANCH          ?= 999
 REVISION        ?= 1
 TIMESTAMP       := $(shell date -R)
-SONAME          := $(shell objdump -p libnvidia-nscq.so.[0-9][0-9][0-9]* | grep SONAME | rev | cut -d . -f 1 | rev)
+SONAME          :=
 
 CACHE			?= ../.cache
 ORIGDIR			?= libnvidia-nscq-$(MAJOR_VER).orig
@@ -50,9 +50,9 @@ get_origdir		 = $(or $(ORIGDIR.$(strip $1)),$(ORIGDIR)-$(strip $1))
 get_tarball		 = $(or $(TARBALL.$(strip $1)),$(TARBALL_BASE)-$(strip $1)$(TARBALL_SUFFIX))
 
 ifeq ($(DEB_HOST_ARCH),amd64)
-DEBLIBINSTDIR   ?= /usr/lib/x86_64-linux-gnu
+DEBLIBINSTDIR   ?= usr/lib/x86_64-linux-gnu
 else ifeq ($(DEB_HOST_ARCH),ppc64el)
-DEBLIBINSTDIR   ?= /usr/lib/powerpc64le-linux-gnu
+DEBLIBINSTDIR   ?= usr/lib/powerpc64le-linux-gnu
 endif
 
 %:
@@ -60,7 +60,7 @@ endif
 
 override_dh_auto_clean:
 	rm -f NVIDIA-Linux
-	rm -Rf libnvidia-nscq
+	rm -Rf libnvidia_nscq
 	rm -fr $(foreach a,$(ARCH_LIST),NVIDIA-Linux-$a $(NVIDIA_DIRNAME_$a))
 
 override_dh_clean: fill_templates
@@ -71,21 +71,22 @@ override_dh_auto_build:
 
 NVIDIA-Linux-%:
 	tar -xzvf $*/${NVIDIA_FILENAME_$*}
-	ln -s fabricmanager $@
+	ln -s libnvidia_nscq $@
 
 # Unpack all architectures, we may need files from all of them.
 unpack-stamp: NVIDIA-Linux-amd64
 	dh_testdir
 	ln -s NVIDIA-Linux-amd64 NVIDIA-Linux
 	ls -al
+	$(eval SONAME=$(shell objdump -p NVIDIA-Linux-amd64/libnvidia-nscq.so.[0-9][0-9][0-9]* | grep SONAME | rev | cut -d . -f 1 | rev))
 	touch $@
 
-fill_templates:
+fill_templates: unpack-stamp
 	for template in debian/templates/*.in; do \
 		dest=`echo $$template | \
 		      sed -e "s|\.in\$$||" \
 		          -e "s|templates\/||" \
-		          -e "s|BRANCH|$(BRANCH)|"`; \
+		          -e "s|BRANCH|$(MAJOR_VER)|"`; \
 		sed -e "s|#VERSION#|$(VERSION)|g" \
 		    -e "s|#BRANCH#|$(MAJOR_VER)|g" \
 		    -e "s|#SONAME#|$(SONAME)|g" \
@@ -94,8 +95,11 @@ fill_templates:
 		    -e "s|#DEBLIBINSTDIR#|$(DEBLIBINSTDIR)|g" \
 		    $$template > $$dest; \
 	done
+	rm -f NVIDIA-Linux
+	rm -Rf libnvidia_nscq
+	rm -fr $(foreach a,$(ARCH_LIST),NVIDIA-Linux-$a $(NVIDIA_DIRNAME_$a))
 
-override_dh_auto_install:
+override_dh_auto_install: unpack-stamp
 	dh_install --exclude=none --fail-missing
 
 override_dh_makeshlibs:
