@@ -143,9 +143,6 @@ get-orig-source-files/%: get-orig-source-prepare/% get-orig-source-download/%
 	    cd get-orig-source ; \
 		rm -f ../$*/*.gz; mkdir ../$* || true; cp $(NVIDIA_FILENAME_$*) ../$*/; \
 	    mv $(NVIDIA_FILENAME_$*) $(call get_origdir,$*)/ ; \
-	    tar -xzvf $(call get_origdir,$*)/$(NVIDIA_FILENAME_$*); \
-	    rm $(call get_origdir,$*)/$(NVIDIA_FILENAME_$*); \
-	    mv libnvidia_nscq/* $(call get_origdir,$*)/ ; \
 	    touch $(call get_origdir,$*).stamp -r $(call get_origdir,$*)
 
 get-orig-source-pack/%: get-orig-source-files/%
@@ -155,7 +152,7 @@ get-orig-source-pack/%: get-orig-source-files/%
 	        --clamp-mtime --mtime="./$(call get_origdir,$*).stamp" \
 	        --sort=name \
 		--owner=root --group=src \
-		$(call get_origdir,$*) \
+		$(call get_origdir,$*)/$(NVIDIA_FILENAME_$*) \
 		| gzip -n -9 > $(call get_tarball,$*) ; \
 	    touch $(call get_tarball,$*) -r $(call get_origdir,$*).stamp
 	mv get-orig-source/$(call get_tarball,$*) .
