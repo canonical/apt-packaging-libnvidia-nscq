@@ -20,7 +20,11 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Source: libnvidia-nscq-#BRANCH#
-Maintainer: cudatools <cudatools@nvidia.com>
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:
+ Alberto Milone <alberto.milone@canonical.com>,
+Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/#BRANCH#
 Section: multiverse/devel
 Priority: optional
 Build-Depends: debhelper
