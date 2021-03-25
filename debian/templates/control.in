@@ -19,11 +19,11 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Source: libnvidia-nscq
+Source: libnvidia-nscq-#BRANCH#
 Maintainer: cudatools <cudatools@nvidia.com>
 Section: multiverse/devel
 Priority: optional
-#Build-Depends: debhelper
+Build-Depends: debhelper
 Standards-Version: 3.8.0
 
 Package: libnvidia-nscq-#BRANCH#
