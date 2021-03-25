@@ -22,12 +22,32 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 DH_VERBOSE := 1
+include /usr/share/dpkg/architecture.mk
+include /usr/share/dpkg/pkg-info.mk
 
-VERSION         ?= 999
+include debian/rules.defs
+
+VERSION         = $(shell echo $(DEB_VERSION_UPSTREAM) | sed -e's/.*\+really\.//')
+MAJOR_VER		= $(firstword $(subst ., ,$(VERSION)))
+
+NVIDIA_RELEASE   = $(VERSION)
 BRANCH          ?= 999
 REVISION        ?= 1
 TIMESTAMP       := $(shell date -R)
 SONAME          := $(shell objdump -p libnvidia-nscq.so.[0-9][0-9][0-9]* | grep SONAME | rev | cut -d . -f 1 | rev)
+
+CACHE			?= ../.cache
+ORIGDIR			?= libnvidia-nscq-$(MAJOR_VER).orig
+TARBALL_BASE	?= libnvidia-nscq-$(MAJOR_VER)_$(NVIDIA_RELEASE).orig
+TARBALL_SUFFIX	?= .tar.gz
+TARBALL			?= $(TARBALL_BASE)$(TARBALL_SUFFIX)
+ORIGDIR.empty	?= $(ORIGDIR)
+TARBALL.empty	?= $(TARBALL)
+
+# $1 = arch
+get_download_url	 = $(or $(HTTPURL_PREFIX_$(strip $1)),$(HTTPURL_PREFIX))/$(HTTPURL_ARCHDIR_$(strip $1))/$(NVIDIA_FILENAME_$(strip $1))
+get_origdir		 = $(or $(ORIGDIR.$(strip $1)),$(ORIGDIR)-$(strip $1))
+get_tarball		 = $(or $(TARBALL.$(strip $1)),$(TARBALL_BASE)-$(strip $1)$(TARBALL_SUFFIX))
 
 ifeq ($(DEB_HOST_ARCH),amd64)
 DEBLIBINSTDIR   ?= /usr/lib/x86_64-linux-gnu
@@ -38,11 +58,27 @@ endif
 %:
 	dh $@ 
 
-override_dh_clean:
+override_dh_auto_clean:
+	rm -f NVIDIA-Linux
+	rm -Rf libnvidia-nscq
+	rm -fr $(foreach a,$(ARCH_LIST),NVIDIA-Linux-$a $(NVIDIA_DIRNAME_$a))
+
+override_dh_clean: fill_templates
 	dh_clean
 
 override_dh_auto_build:
 	rm -f lib*.so
+
+NVIDIA-Linux-%:
+	tar -xzvf $*/${NVIDIA_FILENAME_$*}
+	ln -s fabricmanager $@
+
+# Unpack all architectures, we may need files from all of them.
+unpack-stamp: NVIDIA-Linux-amd64
+	dh_testdir
+	ln -s NVIDIA-Linux-amd64 NVIDIA-Linux
+	ls -al
+	touch $@
 
 fill_templates:
 	for template in debian/templates/*.in; do \
@@ -51,7 +87,7 @@ fill_templates:
 		          -e "s|templates\/||" \
 		          -e "s|BRANCH|$(BRANCH)|"`; \
 		sed -e "s|#VERSION#|$(VERSION)|g" \
-		    -e "s|#BRANCH#|$(BRANCH)|g" \
+		    -e "s|#BRANCH#|$(MAJOR_VER)|g" \
 		    -e "s|#SONAME#|$(SONAME)|g" \
 		    -e "s|#REVISION#|$(REVISION)|g" \
 		    -e "s|#TIMESTAMP#|$(TIMESTAMP)|g" \
@@ -83,3 +119,46 @@ override_dh_shlibdeps:
 ifneq ($(DISABLE_FIXPERMS),)
 override_dh_fixperms:
 endif
+
+get-orig-source-prepare:
+	$(RM) -r get-orig-source
+	mkdir get-orig-source
+
+get-orig-source-prepare/%: get-orig-source-prepare
+	$(RM) $(call get_tarball,$*)
+	mkdir get-orig-source/$(call get_origdir,$*)
+
+get-orig-source-download/%: get-orig-source-prepare
+	ln -v $(CACHE)/$(NVIDIA_FILENAME_$*) get-orig-source/ 2>/dev/null || \
+		wget $(call get_download_url,$*) -P get-orig-source/
+	if [ -d $(CACHE) ] && [ ! -f $(CACHE)/$(NVIDIA_FILENAME_$*) ]; then \
+		ln -v get-orig-source/$(NVIDIA_FILENAME_$*) $(CACHE) ; fi
+
+get-orig-source-files/%: get-orig-source-prepare/% get-orig-source-download/%
+	@set -e -x ; \
+	    cd get-orig-source ; \
+		rm -f ../$*/*.gz; mkdir ../$* || true; cp $(NVIDIA_FILENAME_$*) ../$*/; \
+	    mv $(NVIDIA_FILENAME_$*) $(call get_origdir,$*)/ ; \
+	    tar -xzvf $(call get_origdir,$*)/$(NVIDIA_FILENAME_$*); \
+	    rm $(call get_origdir,$*)/$(NVIDIA_FILENAME_$*); \
+	    mv libnvidia_nscq/* $(call get_origdir,$*)/ ; \
+	    touch $(call get_origdir,$*).stamp -r $(call get_origdir,$*)
+
+get-orig-source-pack/%: get-orig-source-files/%
+	@set -e -x ; \
+	    cd get-orig-source ; \
+	    tar cv \
+	        --clamp-mtime --mtime="./$(call get_origdir,$*).stamp" \
+	        --sort=name \
+		--owner=root --group=src \
+		$(call get_origdir,$*) \
+		| gzip -n -9 > $(call get_tarball,$*) ; \
+	    touch $(call get_tarball,$*) -r $(call get_origdir,$*).stamp
+	mv get-orig-source/$(call get_tarball,$*) .
+
+get-orig-source-files/empty: get-orig-source-prepare/empty $(foreach a,$(ARCH_LIST),get-orig-source-pack/$a)
+	touch get-orig-source/$(call get_origdir,empty).stamp -r $$(ls -tr $(foreach a,$(ARCH_LIST),$(call get_tarball,$a)) | tail -n 1)
+
+.PHONY: get-orig-source
+get-orig-source: get-orig-source-pack/empty
+	rm -rf get-orig-source

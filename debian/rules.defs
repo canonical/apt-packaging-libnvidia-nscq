@@ -1,0 +1,12 @@
+ARCH_LIST		 = amd64
+#ARCH_LIST		+= ppc64el
+
+NVIDIA_DIRNAME_amd64	 = libnvidia_nscq-linux-x86_64-${NVIDIA_RELEASE}
+#NVIDIA_DIRNAME_ppc64el	 = libnvidia_nscq-linux-ppc64le-${NVIDIA_RELEASE}
+NVIDIA_FILENAME_amd64	 = ${NVIDIA_DIRNAME_amd64}.tar.gz
+#NVIDIA_FILENAME_ppc64el = ${NVIDIA_DIRNAME_ppc64el}.tar.gz
+
+HTTPURL_PREFIX		 = https://developer.download.nvidia.com/compute/cuda/redist/libnvidia_nscq
+#HTTPURL_PREFIX_ppc64el	 = https://us.download.nvidia.com/Ubuntu
+HTTPURL_ARCHDIR_amd64	 = linux-x86_64
+#HTTPURL_ARCHDIR_ppc64el	 =
