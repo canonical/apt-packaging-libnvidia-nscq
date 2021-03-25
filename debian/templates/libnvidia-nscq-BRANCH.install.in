@@ -1,0 +1,2 @@
+NVIDIA-Linux/libnvidia-nscq.so   #DEBLIBINSTDIR#
+NVIDIA-Linux/libnvidia-nscq.so.* #DEBLIBINSTDIR#
