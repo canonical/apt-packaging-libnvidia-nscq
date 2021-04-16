@@ -19,18 +19,18 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Source: libnvidia-nscq-460
+Source: libnvidia-nscq-450
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders:
  Alberto Milone <alberto.milone@canonical.com>,
 Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
-Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/460
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/450
 Section: multiverse/devel
 Priority: optional
 Build-Depends: debhelper
 Standards-Version: 3.8.0
 
-Package: libnvidia-nscq-460
+Package: libnvidia-nscq-450
 Architecture: amd64
 Depends: ${misc:Depends}
 Provides: libnvidia-nscq, nscq1, nscq-api
