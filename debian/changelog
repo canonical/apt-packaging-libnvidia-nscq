@@ -1,5 +1,5 @@
-libnvidia-nscq-460 (460.73.01-0ubuntu0~0.21.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-460 (460.73.01-0ubuntu1) impish; urgency=medium
 
-  * Initial release.
+  * Initial release (LP: #1925522).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 16 Apr 2021 16:47:26 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 16 Apr 2021 16:48:26 +0200
