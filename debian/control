@@ -25,14 +25,15 @@ Uploaders:
  Alberto Milone <alberto.milone@canonical.com>,
 Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
 Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/450
-Section: multiverse/devel
+Section: non-free/libs
 Priority: optional
-Build-Depends: debhelper
-Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 10)
+XS-Autobuild: yes
+Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-450
 Architecture: amd64
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Provides: libnvidia-nscq, nscq1, nscq-api
 Replaces: libnvidia-nscq
 Conflicts: libnvidia-nscq
