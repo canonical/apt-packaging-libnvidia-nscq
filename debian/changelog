@@ -1,11 +1,6 @@
-libnvidia-nscq-460 (460.73.01-0ubuntu2) UNRELEASED; urgency=medium
-
-  * 
-
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 19 May 2021 12:33:43 +0200
-
-libnvidia-nscq-460 (460.73.01-0ubuntu1) impish; urgency=medium
+libnvidia-nscq-460 (460.73.01-0ubuntu0.20.10.1) groovy; urgency=medium
 
   * Initial release (LP: #1925522).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 16 Apr 2021 16:48:26 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 19 May 2021 12:50:06 +0200
+
