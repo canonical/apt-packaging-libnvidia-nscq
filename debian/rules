@@ -31,7 +31,6 @@ VERSION         = $(shell echo $(DEB_VERSION_UPSTREAM) | sed -e's/.*\+really\.//
 MAJOR_VER		= $(firstword $(subst ., ,$(VERSION)))
 
 NVIDIA_RELEASE   = $(VERSION)
-BRANCH          ?= 999
 REVISION        ?= 1
 TIMESTAMP       := $(shell date -R)
 SONAME          :=
