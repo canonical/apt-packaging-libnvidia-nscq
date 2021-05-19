@@ -33,7 +33,7 @@ Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-#BRANCH#
 Architecture: amd64
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Provides: libnvidia-nscq, nscq#SONAME#, nscq-api
 Replaces: libnvidia-nscq
 Conflicts: libnvidia-nscq
