@@ -27,8 +27,8 @@ Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
 Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/#BRANCH#
 Section: multiverse/devel
 Priority: optional
-Build-Depends: debhelper
-Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-#BRANCH#
 Architecture: amd64
