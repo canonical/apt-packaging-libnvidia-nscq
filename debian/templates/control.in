@@ -28,6 +28,7 @@ Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/#BRANC
 Section: multiverse/devel
 Priority: optional
 Build-Depends: debhelper (>= 10)
+XS-Autobuild: yes
 Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-#BRANCH#
