@@ -25,7 +25,7 @@ Uploaders:
  Alberto Milone <alberto.milone@canonical.com>,
 Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
 Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/#BRANCH#
-Section: multiverse/devel
+Section: non-free/libs
 Priority: optional
 Build-Depends: debhelper (>= 10)
 XS-Autobuild: yes
