@@ -1,3 +1,9 @@
+libnvidia-nscq-450 (450.142.00-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 09 Jul 2021 17:00:27 +0200
+
 libnvidia-nscq-450 (450.119.04-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * Initial release (LP: #1925522).
