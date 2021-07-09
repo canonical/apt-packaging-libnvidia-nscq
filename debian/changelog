@@ -1,8 +1,8 @@
-libnvidia-nscq-450 (450.142.00-0ubuntu0.20.10.1) UNRELEASED; urgency=medium
+libnvidia-nscq-450 (450.142.00-0ubuntu0.20.10.1) groovy; urgency=medium
 
-  * 
+  * New upstream release (LP: #1933980).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 09 Jul 2021 16:58:47 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 09 Jul 2021 16:59:10 +0200
 
 libnvidia-nscq-450 (450.119.04-0ubuntu0.20.10.1) groovy; urgency=medium
 
