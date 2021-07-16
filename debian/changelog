@@ -1,29 +1,5 @@
-libnvidia-nscq-460 (460.91.03-0ubuntu1) impish; urgency=medium
+libnvidia-nscq-470 (470.57.02-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release (LP: #1933980).
+  * Initial release (LP: #1936577).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 09 Jul 2021 16:40:23 +0200
-
-libnvidia-nscq-460 (460.73.01-0ubuntu2) impish; urgency=medium
-
-  * debian/rules:
-    - Remove override_dh_auto_build.
-    - Remove the BRANCH variable.
-  * debian/compat:
-    - Set compat to 10.
-  * debian/templates/control.in:
-    - Add build dependency on debhelper >= 10 and update
-      standards.
-    - Add XS-Autobuild: yes.
-    - Use the same section that is used for the nvidia
-      drivers.
-    - Add ${shlibs:Depends}
-  * Add debian/source/lintian-overrides.
-
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 19 May 2021 12:50:06 +0200
-
-libnvidia-nscq-460 (460.73.01-0ubuntu1) impish; urgency=medium
-
-  * Initial release (LP: #1925522).
-
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 16 Apr 2021 16:48:26 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 16 Jul 2021 13:57:48 +0200
