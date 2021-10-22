@@ -1,8 +1,13 @@
-libnvidia-nscq-450 (450.156.00-0ubuntu0.21.10.1) UNRELEASED; urgency=medium
+libnvidia-nscq-450 (450.156.00-0ubuntu0.21.10.1) impish; urgency=medium
 
-  * 
+  * New upstream release (LP: #1948025).
+  * debian/rules{.defs}:
+    - Switch to new tarball format.
+    - Change path to extract soname.
+  * debian/templates/libnvidia-nscq-BRANCH.install.in:
+    - Change source paths.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 22 Oct 2021 18:01:04 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 22 Oct 2021 18:02:38 +0200
 
 libnvidia-nscq-450 (450.142.00-0ubuntu1) impish; urgency=medium
 
