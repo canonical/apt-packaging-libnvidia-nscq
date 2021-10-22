@@ -1,3 +1,9 @@
+libnvidia-nscq-470 (470.82.00-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 22 Oct 2021 17:38:07 +0200
+
 libnvidia-nscq-470 (470.57.02-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * Initial release (LP: #1936577).
