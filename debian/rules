@@ -66,8 +66,8 @@ override_dh_clean: fill_templates
 	dh_clean
 
 NVIDIA-Linux-%:
-	tar -xzvf $*/${NVIDIA_FILENAME_$*}
-	ln -s libnvidia_nscq $@
+	tar -xJvf $*/${NVIDIA_FILENAME_$*}
+	ln -s ${NVIDIA_DIRNAME_$*} $@
 
 # Unpack all architectures, we may need files from all of them.
 unpack-stamp: NVIDIA-Linux-amd64
