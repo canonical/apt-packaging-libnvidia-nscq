@@ -1,8 +1,10 @@
-libnvidia-nscq-470 (470.103.01-0ubuntu1) UNRELEASED; urgency=medium
+libnvidia-nscq-470 (470.103.01-0ubuntu1) jammy; urgency=medium
 
-  * 
+  * New upstream release.
+  * debian/templates/control.in:
+    - Add transitional packages for the 460 series.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 01 Feb 2022 13:21:36 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 01 Feb 2022 13:26:35 +0100
 
 libnvidia-nscq-470 (470.82.01-0ubuntu1) jammy; urgency=medium
 
