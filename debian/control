@@ -19,22 +19,22 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Source: libnvidia-nscq-470
+Source: libnvidia-nscq-510
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders:
  Alberto Milone <alberto.milone@canonical.com>,
 Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
-Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/470
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/510
 Section: non-free/libs
 Priority: optional
 Build-Depends: debhelper (>= 10)
 XS-Autobuild: yes
 Standards-Version: 4.1.4
 
-Package: libnvidia-nscq-470
+Package: libnvidia-nscq-510
 Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Provides: libnvidia-nscq, nscq1, nscq-api
+Provides: libnvidia-nscq, nscq2, nscq-api
 Replaces: libnvidia-nscq
 Conflicts: libnvidia-nscq
 Description: NVSwitch Configuration and Query library
@@ -43,7 +43,7 @@ Description: NVSwitch Configuration and Query library
 
 Package: libnvidia-nscq-460
 Architecture: amd64
-Depends: libnvidia-nscq-470
-Description: Transitional package for libnvidia-nscq-470
- This is a transitional package for libnvidia-nscq-470, and can be
+Depends: libnvidia-nscq-510
+Description: Transitional package for libnvidia-nscq-510
+ This is a transitional package for libnvidia-nscq-510, and can be
  safely removed after the installation is complete.
