@@ -1,8 +1,8 @@
-libnvidia-nscq-450 (450.191.01-0ubuntu1) UNRELEASED; urgency=medium
+libnvidia-nscq-450 (450.191.01-0ubuntu1) kinetic; urgency=medium
 
-  * 
+  * New upstream release (LP: #1973300).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Mon, 16 May 2022 09:36:19 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Mon, 16 May 2022 09:39:08 +0000
 
 libnvidia-nscq-450 (450.172.01-0ubuntu1) jammy; urgency=medium
 
