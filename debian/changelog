@@ -1,4 +1,4 @@
-libnvidia-nscq-515 (515.48.07-0ubuntu0.20.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-515 (515.48.07-0ubuntu0.20.04.1) focal; urgency=medium
 
   * Initial release (LP: #1976425).
 
