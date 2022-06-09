@@ -1,5 +1,5 @@
-libnvidia-nscq-515 (515.48.07-0ubuntu0.21.10.1) UNRELEASED; urgency=medium
+libnvidia-nscq-515 (515.48.07-0ubuntu0.21.10.1) impish; urgency=medium
 
   * Initial release (LP: #1976425).
 
- -- Ian May <ian.may@canonical.com>  Thu, 09 Jun 2022 15:47:38 -0500
+ -- Ian May <ian.may@canonical.com>  Thu, 09 Jun 2022 15:51:48 -0500
