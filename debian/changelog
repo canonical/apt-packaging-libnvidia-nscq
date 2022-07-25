@@ -1,8 +1,8 @@
-libnvidia-nscq-470 (470.141.03-0ubuntu0.22.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-470 (470.141.03-0ubuntu0.22.04.1) jammy; urgency=medium
 
-  * 
+  * New upstream release (LP: #1982501).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Mon, 25 Jul 2022 14:55:09 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Mon, 25 Jul 2022 14:55:55 +0000
 
 libnvidia-nscq-470 (470.129.06-0ubuntu0.22.04.1) jammy; urgency=medium
 
