@@ -32,7 +32,7 @@ XS-Autobuild: yes
 Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-#BRANCH#
-Architecture: amd64
+Architecture: #ARCH_LIST#
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Provides: libnvidia-nscq, nscq#SONAME#, nscq-api
 Replaces: libnvidia-nscq
