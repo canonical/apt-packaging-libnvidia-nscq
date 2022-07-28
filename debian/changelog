@@ -1,8 +1,11 @@
-libnvidia-nscq-515 (515.65.01-0ubuntu1) UNRELEASED; urgency=medium
+libnvidia-nscq-515 (515.65.01-0ubuntu1) kinetic; urgency=medium
 
-  * 
+  * New upstream release (LP: #1982501).
+  * debian/rules{.defs},
+    debian/templates/control.in:
+    - Enable arm64 builds.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 28 Jul 2022 10:43:21 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Thu, 28 Jul 2022 11:13:52 +0000
 
 libnvidia-nscq-515 (515.48.07-0ubuntu2) kinetic; urgency=medium
 
