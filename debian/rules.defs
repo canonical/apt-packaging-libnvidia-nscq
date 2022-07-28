@@ -1,12 +1,16 @@
 ARCH_LIST		 = amd64
+ARCH_LIST		+= arm64
 #ARCH_LIST		+= ppc64el
 
 NVIDIA_DIRNAME_amd64	 = libnvidia_nscq-linux-x86_64-${NVIDIA_RELEASE}-archive
+NVIDIA_DIRNAME_arm64	 = libnvidia_nscq-linux-sbsa-${NVIDIA_RELEASE}-archive
 #NVIDIA_DIRNAME_ppc64el	 = libnvidia_nscq-linux-ppc64le-${NVIDIA_RELEASE}
 NVIDIA_FILENAME_amd64	 = ${NVIDIA_DIRNAME_amd64}.tar.xz
+NVIDIA_FILENAME_arm64	 = ${NVIDIA_DIRNAME_arm64}.tar.xz
 #NVIDIA_FILENAME_ppc64el = ${NVIDIA_DIRNAME_ppc64el}.tar.gz
 
 HTTPURL_PREFIX		 = https://developer.download.nvidia.com/compute/nvidia-driver/redist/libnvidia_nscq
 #HTTPURL_PREFIX_ppc64el	 = https://us.download.nvidia.com/Ubuntu
 HTTPURL_ARCHDIR_amd64	 = linux-x86_64
+HTTPURL_ARCHDIR_arm64	 = linux-sbsa
 #HTTPURL_ARCHDIR_ppc64el	 =
