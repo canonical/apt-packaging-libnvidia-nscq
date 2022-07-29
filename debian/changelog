@@ -1,3 +1,9 @@
+libnvidia-nscq-515 (515.65.01-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 29 Jul 2022 10:59:37 +0000
+
 libnvidia-nscq-515 (515.48.07-0ubuntu0.18.04.2) bionic; urgency=medium
 
   * debian/templates/control.in:
