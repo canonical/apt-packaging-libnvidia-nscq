@@ -1,8 +1,8 @@
-libnvidia-nscq-450 (450.216.04-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-450 (450.216.04-0ubuntu0.18.04.1) bionic; urgency=medium
 
-  * 
+  * New upstream release (LP: #1997087).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 25 Nov 2022 14:55:28 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 25 Nov 2022 14:55:59 +0000
 
 libnvidia-nscq-450 (450.203.03-0ubuntu0.18.04.1) bionic; urgency=medium
 
