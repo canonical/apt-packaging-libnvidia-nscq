@@ -1,8 +1,10 @@
-libnvidia-nscq-515 (515.86.01-0ubuntu0.20.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-515 (515.86.01-0ubuntu0.20.04.1) focal; urgency=medium
 
-  * 
+  * New upstream release (LP: #1997087).
+  * debian/templates/control.in:
+    - Add transitional packages for the 510 series.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 25 Nov 2022 12:08:43 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 25 Nov 2022 12:10:30 +0000
 
 libnvidia-nscq-515 (515.65.01-0ubuntu0.20.04.1) focal; urgency=medium
 
