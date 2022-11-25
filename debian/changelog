@@ -1,3 +1,9 @@
+libnvidia-nscq-515 (515.86.01-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 25 Nov 2022 12:11:38 +0000
+
 libnvidia-nscq-515 (515.65.01-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * New upstream release (LP: #1982501).
