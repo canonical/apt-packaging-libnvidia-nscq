@@ -1,5 +1,5 @@
-libnvidia-nscq-525 (525.60.13-0ubuntu0.22.10.1) UNRELEASED; urgency=medium
+libnvidia-nscq-525 (525.60.13-0ubuntu0.22.10.1) kinetic; urgency=medium
 
-  * 
+  * Initial release (LP: #1999530).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 14 Dec 2022 13:41:30 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 14 Dec 2022 13:43:58 +0000
