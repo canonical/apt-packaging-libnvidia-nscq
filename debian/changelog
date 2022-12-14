@@ -1,29 +1,5 @@
-libnvidia-nscq-515 (515.86.01-0ubuntu0.22.04.1) jammy; urgency=medium
+libnvidia-nscq-525 (525.60.13-0ubuntu0.22.04.1) UNRELEASED; urgency=medium
 
-  * New upstream release (LP: #1997087).
-  * debian/templates/control.in:
-    - Add transitional packages for the 510 series.
+  * 
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 25 Nov 2022 12:06:34 +0000
-
-libnvidia-nscq-515 (515.65.01-0ubuntu0.22.04.1) jammy; urgency=medium
-
-  * New upstream release (LP: #1982501).
-  * debian/rules{.defs},
-    debian/templates/control.in:
-    - Enable arm64 builds.
-
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 28 Jul 2022 14:20:30 +0000
-
-libnvidia-nscq-515 (515.48.07-0ubuntu0.22.04.2) jammy; urgency=medium
-
-  * debian/templates/control.in:
-    - Drop transitional packages for 460 (LP: #1976425).
-
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 23 Jun 2022 16:08:02 +0000
-
-libnvidia-nscq-515 (515.48.07-0ubuntu0.22.04.1) jammy; urgency=medium
-
-  * Initial release (LP: #1976425).
-
- -- Ian May <ian.may@canonical.com>  Thu, 09 Jun 2022 16:28:17 -0500
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 14 Dec 2022 13:45:02 +0000
