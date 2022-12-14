@@ -1,26 +1,5 @@
-libnvidia-nscq-515 (515.86.01-0ubuntu0.18.04.1) bionic; urgency=medium
+libnvidia-nscq-525 (525.60.13-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
 
-  * New upstream release (LP: #1997087).
-  * debian/templates/control.in:
-    - Add transitional packages for the 510 series.
+  * 
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 25 Nov 2022 12:36:26 +0000
-
-libnvidia-nscq-515 (515.65.01-0ubuntu0.18.04.1) bionic; urgency=medium
-
-  * New upstream release (LP: #1982501).
-
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 29 Jul 2022 11:00:11 +0000
-
-libnvidia-nscq-515 (515.48.07-0ubuntu0.18.04.2) bionic; urgency=medium
-
-  * debian/templates/control.in:
-    - Drop transitional packages for 460 (LP: #1976425).
-
- -- Alberto Milone <alberto.milone@canonical.com>  Thu, 23 Jun 2022 16:11:20 +0000
-
-libnvidia-nscq-515 (515.48.07-0ubuntu0.18.04.1) bionic; urgency=medium
-
-  * Initial release (LP: #1976425).
-
- -- Ian May <ian.may@canonical.com>  Thu, 09 Jun 2022 14:45:34 -0500
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 14 Dec 2022 14:24:49 +0000
