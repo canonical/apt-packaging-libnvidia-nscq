@@ -1,8 +1,9 @@
-libnvidia-nscq-515 (515.86.01-0ubuntu0.18.04.2) UNRELEASED; urgency=medium
+libnvidia-nscq-515 (515.86.01-0ubuntu0.18.04.2) bionic; urgency=medium
 
-  * 
+  * debian/libnvidia-nscq-510.install:
+    - Remove leftover install file (LP: #2003995).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 01 Feb 2023 15:21:35 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Wed, 01 Feb 2023 15:23:04 +0000
 
 libnvidia-nscq-515 (515.86.01-0ubuntu0.18.04.1) bionic; urgency=medium
 
