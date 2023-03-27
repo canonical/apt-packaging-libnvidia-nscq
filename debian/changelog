@@ -1,8 +1,8 @@
-libnvidia-nscq-470 (470.182.03-0ubuntu0.22.10.1) UNRELEASED; urgency=medium
+libnvidia-nscq-470 (470.182.03-0ubuntu0.22.10.1) kinetic; urgency=medium
 
-  * 
+  * New upstream release (LP: #2012529).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Mon, 27 Mar 2023 16:02:01 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Mon, 27 Mar 2023 16:02:38 +0000
 
 libnvidia-nscq-470 (470.161.03-0ubuntu0.22.10.1) kinetic; urgency=medium
 
