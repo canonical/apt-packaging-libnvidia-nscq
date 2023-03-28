@@ -34,7 +34,7 @@ Standards-Version: 4.1.4
 Package: libnvidia-nscq-525
 Architecture: amd64 arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Provides: libnvidia-nscq, nscq, nscq-api
+Provides: libnvidia-nscq, nscq2, nscq-api
 Replaces: libnvidia-nscq
 Conflicts: libnvidia-nscq
 Description: NVSwitch Configuration and Query library
