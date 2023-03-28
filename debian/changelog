@@ -1,10 +1,13 @@
-libnvidia-nscq-525 (525.105.15-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-525 (525.105.17-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * New upstream release (LP: #2012529).
+  * debian/rules:
+    - Fix the objdump path so that it is not for amd64 only. This
+      gets the correct soname, and fixes the nscq provides.
   * debian/templates/libnvidia-nscq-BRANCH.install.in:
     - Add the cli tools and include folders.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 28 Mar 2023 07:30:22 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 28 Mar 2023 07:30:54 +0000
 
 libnvidia-nscq-525 (525.85.12-0ubuntu0.18.04.1) bionic; urgency=medium
 
