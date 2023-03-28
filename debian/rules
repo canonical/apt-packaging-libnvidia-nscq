@@ -70,7 +70,7 @@ unpack-stamp: NVIDIA-Linux-$(DEB_HOST_ARCH)
 	dh_testdir
 	ln -s NVIDIA-Linux-$(DEB_HOST_ARCH) NVIDIA-Linux
 	ls -al
-	$(eval SONAME=$(shell objdump -p NVIDIA-Linux-amd64/lib/libnvidia-nscq.so.[0-9][0-9][0-9]* | grep SONAME | rev | cut -d . -f 1 | rev))
+	$(eval SONAME=$(shell objdump -p NVIDIA-Linux-$(DEB_HOST_ARCH)/lib/libnvidia-nscq.so.[0-9][0-9][0-9]* | grep SONAME | rev | cut -d . -f 1 | rev))
 	touch $@
 
 fill_templates: unpack-stamp
