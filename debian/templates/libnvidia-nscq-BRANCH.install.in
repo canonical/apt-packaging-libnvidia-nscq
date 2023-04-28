@@ -1,3 +1,1 @@
 NVIDIA-Linux/lib/*      #DEBLIBINSTDIR#
-NVIDIA-Linux/bin/*      usr/bin
-NVIDIA-Linux/include/*  usr/include
