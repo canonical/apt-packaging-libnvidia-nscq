@@ -1,8 +1,9 @@
-libnvidia-nscq-525 (525.105.17-0ubuntu0.22.04.2) UNRELEASED; urgency=medium
+libnvidia-nscq-525 (525.105.17-0ubuntu0.22.04.2) jammy; urgency=medium
 
-  * 
+  * debian/templates/control.in:
+    - Add transitional packages for the 515 series (LP: #2024247).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 23 Jun 2023 17:15:54 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 23 Jun 2023 17:16:17 +0000
 
 libnvidia-nscq-525 (525.105.17-0ubuntu0.22.04.1) jammy; urgency=medium
 
