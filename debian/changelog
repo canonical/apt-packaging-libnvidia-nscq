@@ -1,35 +1,5 @@
-libnvidia-nscq-525 (525.125.06-0ubuntu0.22.04.1) jammy; urgency=medium
+libnvidia-nscq-535 (535.54.03-0ubuntu0.22.04.1) UNRELEASED; urgency=medium
 
-  * New upstream release (LP: #2024675).
+  * 
 
- -- Alberto Milone <alberto.milone@canonical.com>  Mon, 26 Jun 2023 16:08:04 +0000
-
-libnvidia-nscq-525 (525.105.17-0ubuntu0.22.04.2) jammy; urgency=medium
-
-  * debian/templates/control.in:
-    - Add transitional packages for the 515 series (LP: #2024247).
-
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 23 Jun 2023 17:16:17 +0000
-
-libnvidia-nscq-525 (525.105.17-0ubuntu0.22.04.1) jammy; urgency=medium
-
-  * New upstream release (LP: #2012529).
-  * debian/rules:
-    - Fix the objdump path so that it is not for amd64 only. This
-      gets the correct soname, and fixes the nscq provides.
-  * debian/templates/libnvidia-nscq-BRANCH.install.in:
-    - Add the cli tools and include folders.
-
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 28 Mar 2023 07:29:15 +0000
-
-libnvidia-nscq-525 (525.85.12-0ubuntu0.22.04.1) jammy; urgency=medium
-
-  * New upstream release (LP: #2003995).
-
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 01 Feb 2023 14:49:22 +0000
-
-libnvidia-nscq-525 (525.60.13-0ubuntu0.22.04.1) jammy; urgency=medium
-
-  * Initial release (LP: #1999530).
-
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 14 Dec 2022 13:48:13 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 30 Jun 2023 15:23:15 +0000
