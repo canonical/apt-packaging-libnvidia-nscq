@@ -1,0 +1,3 @@
+NVIDIA-Linux/lib/*      
+NVIDIA-Linux/bin/*      usr/bin
+NVIDIA-Linux/include/*  usr/include
