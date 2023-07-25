@@ -1,8 +1,8 @@
-libnvidia-nscq-535 (535.86.09-0ubuntu1) UNRELEASED; urgency=medium
+libnvidia-nscq-535 (535.86.09-0ubuntu1) mantic; urgency=medium
 
-  * 
+  * New upstream release (LP: #2028125).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 25 Jul 2023 16:55:01 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 25 Jul 2023 16:59:56 +0000
 
 libnvidia-nscq-535 (535.54.03-0ubuntu2) mantic; urgency=medium
 
