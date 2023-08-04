@@ -1,8 +1,8 @@
-libnvidia-nscq-535 (535.86.10-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-535 (535.86.10-0ubuntu0.18.04.1) bionic; urgency=medium
 
-  * 
+  * New upstream release (LP: #2028125).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 04 Aug 2023 10:47:14 +0000
+ -- Dimitri John Ledkov <dimitri.ledkov@canonical.com>  Fri, 28 Jul 2023 15:18:37 +0100
 
 libnvidia-nscq-535 (535.86.09-0ubuntu0.18.04.1) bionic; urgency=medium
 
