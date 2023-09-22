@@ -1,8 +1,8 @@
-libnvidia-nscq-535 (535.104.05-0ubuntu0.22.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-535 (535.104.05-0ubuntu0.22.04.1) jammy; urgency=medium
 
-  * 
+  * New upstream release (LP: #2025243).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 22 Sep 2023 14:11:06 +0000
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 22 Sep 2023 14:12:59 +0000
 
 libnvidia-nscq-535 (535.86.10-0ubuntu0.22.04.1) jammy; urgency=medium
 
