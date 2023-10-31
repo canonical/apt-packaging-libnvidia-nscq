@@ -1,3 +1,9 @@
+libnvidia-nscq-525 (525.147.05-0ubuntu0.20.04.1) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 31 Oct 2023 17:45:48 +0100
+
 libnvidia-nscq-525 (525.125.06-0ubuntu0.20.04.1) focal; urgency=medium
 
   * New upstream release (LP: #2024675).
