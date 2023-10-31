@@ -1,8 +1,8 @@
-libnvidia-nscq-525 (525.147.05-0ubuntu0.22.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-525 (525.147.05-0ubuntu0.22.04.1) jammy; urgency=medium
 
-  * 
+  * New upstream release (LP: #2038514).
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 31 Oct 2023 16:49:57 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 31 Oct 2023 16:50:40 +0100
 
 libnvidia-nscq-525 (525.105.17-0ubuntu0.22.04.2) jammy; urgency=medium
 
