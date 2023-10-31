@@ -1,8 +1,10 @@
-libnvidia-nscq-535 (535.129.03-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-535 (535.129.03-0ubuntu0.18.04.1) bionic; urgency=medium
 
-  * 
+  * New upstream release (LP: #2038514).
+  * debian/templates/control.in:
+    - Add transitional packages for 515-server.
 
- -- Alberto Milone <alberto.milone@canonical.com>  Tue, 31 Oct 2023 16:42:59 +0100
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 31 Oct 2023 16:45:20 +0100
 
 libnvidia-nscq-535 (535.104.12-0ubuntu0.18.04.1) bionic; urgency=medium
 
