@@ -1,8 +1,9 @@
-libnvidia-nscq-535 (535.154.05-0ubuntu1) UNRELEASED; urgency=medium
+libnvidia-nscq-535 (535.154.05-0ubuntu1) noble; urgency=medium
 
   * New upstream release (LP: #2048901)
+  * Make orig tarballs reproducible
 
- -- Dimitri John Ledkov <dimitri.ledkov@canonical.com>  Thu, 11 Jan 2024 12:16:28 +0000
+ -- Dimitri John Ledkov <dimitri.ledkov@canonical.com>  Thu, 11 Jan 2024 12:22:41 +0000
 
 libnvidia-nscq-535 (535.129.03-0ubuntu1) noble; urgency=medium
 
