@@ -1,3 +1,9 @@
+libnvidia-nscq-525 (525.147.05-0ubuntu2) noble; urgency=medium
+
+  * End of support for 525 series, transition to 535. LP: #2049635
+
+ -- Dimitri John Ledkov <dimitri.ledkov@canonical.com>  Tue, 23 Jan 2024 19:27:17 +0000
+
 libnvidia-nscq-525 (525.147.05-0ubuntu1) noble; urgency=medium
 
   * New upstream release (LP: #2038514).
