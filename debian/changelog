@@ -1,3 +1,9 @@
+libnvidia-nscq-470 (470.239.06-0ubuntu0.18.04.1) bionic; urgency=medium
+
+  * New upstream release (LP: #2052640)
+
+ -- Dimitri John Ledkov <dimitri.ledkov@canonical.com>  Wed, 21 Feb 2024 09:32:41 +0000
+
 libnvidia-nscq-470 (470.223.02-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * New upstream release (LP: #2038514).
