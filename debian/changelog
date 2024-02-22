@@ -1,3 +1,9 @@
+libnvidia-nscq-535 (535.161.07-0ubuntu0.18.04.1) bionic; urgency=medium
+
+  * New upstream release (LP: #2054571)
+
+ -- Dimitri John Ledkov <dimitri.ledkov@canonical.com>  Thu, 22 Feb 2024 18:48:53 +0000
+
 libnvidia-nscq-535 (535.154.05-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * New upstream release (LP: #2048901)
