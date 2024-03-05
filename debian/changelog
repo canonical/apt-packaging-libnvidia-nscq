@@ -1,5 +1,5 @@
-libnvidia-nscq-550 (550.54.14-0ubuntu1) UNRELEASED; urgency=medium
+libnvidia-nscq-550 (550.54.14-0ubuntu1.18.04.1) bionic; urgency=medium
 
   * Initial release (LP: #2055384)
 
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Tue, 05 Mar 2024 14:53:20 +0100
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Tue, 05 Mar 2024 14:57:06 +0100
