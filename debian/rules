@@ -62,7 +62,7 @@ override_dh_auto_clean:
 	rm -Rf libnvidia_nscq
 	rm -fr $(foreach a,$(ARCH_LIST),NVIDIA-Linux-$a $(NVIDIA_DIRNAME_$a))
 
-override_dh_clean: fill_templates
+override_dh_clean:
 	dh_clean
 
 NVIDIA-Linux-%:
@@ -96,11 +96,9 @@ fill_templates: unpack-stamp
 	rm -Rf libnvidia_nscq
 	rm -fr $(foreach a,$(ARCH_LIST),NVIDIA-Linux-$a $(NVIDIA_DIRNAME_$a))
 
-override_dh_auto_install: unpack-stamp
-	dh_install --exclude=none --fail-missing
-
+override_dh_auto_install:
+override_dh_install:
 override_dh_makeshlibs:
-	DEB_BUILD_GNU_TYPE=$(DEB_HOST_GNU_TYPE) dh_makeshlibs
 
 #
 # Turn off a few of the debhelper scripts
