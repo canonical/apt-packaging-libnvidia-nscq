@@ -22,9 +22,9 @@
 Source: libnvidia-nscq-535
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders:
- Alberto Milone <alberto.milone@canonical.com>,
-Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
-Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/535
+ Kuba Pawlak <kuba.pawlak@canonical.com>,
+Vcs-Git: git://github.com/canonical/apt-packaging-libnvidia-nscq.git
+Vcs-Browser: https://github.com/canonical/apt-packaging-libnvidia-nscq/tree/535
 Section: non-free/libs
 Priority: optional
 Build-Depends: debhelper (>= 10)
