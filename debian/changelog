@@ -1,3 +1,9 @@
+libnvidia-nscq-470 (470.256.02-0ubuntu1) oracular; urgency=medium
+
+  * New upstream release (LP: #2066904)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Fri, 24 May 2024 10:26:38 +0200
+
 libnvidia-nscq-470 (470.239.06-0ubuntu1) noble; urgency=medium
 
   * New upstream release (LP: #2052640)
