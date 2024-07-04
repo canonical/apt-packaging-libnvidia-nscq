@@ -1,3 +1,9 @@
+libnvidia-nscq-535 (535.183.06-0ubuntu0.20.04.1) focal; urgency=medium
+
+  * New upstream release (LP: #2071933)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Thu, 04 Jul 2024 15:32:24 +0200
+
 libnvidia-nscq-535 (535.183.01-0ubuntu0.20.04.1) focal; urgency=medium
 
   * New upstream release (LP: #2066367)
