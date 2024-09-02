@@ -1,3 +1,9 @@
+libnvidia-nscq-550 (550.90.12-0ubuntu0.24.04.1) noble; urgency=medium
+
+  * New upstream release (LP: #2078689)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 02 Sep 2024 14:25:10 +0200
+
 libnvidia-nscq-550 (550.90.07-0ubuntu0.24.04.1) noble; urgency=medium
 
   * New upstream release (LP: #2067041)
