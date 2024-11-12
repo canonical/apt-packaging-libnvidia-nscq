@@ -19,19 +19,19 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Source: libnvidia-nscq-550
+Source: libnvidia-nscq-565
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders:
  Kuba Pawlak <kuba.pawlak@canonical.com>,
 Vcs-Git: git://github.com/canonical/apt-packaging-libnvidia-nscq.git
-Vcs-Browser: https://github.com/canonical/apt-packaging-libnvidia-nscq/tree/550
+Vcs-Browser: https://github.com/canonical/apt-packaging-libnvidia-nscq/tree/565
 Section: non-free/libs
 Priority: optional
 Build-Depends: debhelper (>= 10)
 XS-Autobuild: yes
 Standards-Version: 4.1.4
 
-Package: libnvidia-nscq-550
+Package: libnvidia-nscq-565
 Architecture: amd64 arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Provides: libnvidia-nscq, nscq2
