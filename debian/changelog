@@ -1,3 +1,9 @@
+libnvidia-nscq-535 (535.216.03-0ubuntu0.24.10.1) oracular; urgency=medium
+
+  * New upstream release 535.216.03 (LP: #2088052)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Tue, 19 Nov 2024 22:46:59 +0100
+
 libnvidia-nscq-535 (535.216.01-0ubuntu0.24.10.1) oracular; urgency=medium
 
   * New upstream release (LP: #2084013)
