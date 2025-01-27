@@ -1,5 +1,6 @@
-libnvidia-nscq-570 (570.01.01) UNRELEASED; urgency=medium
+libnvidia-nscq-570 (570.86.15-0ubuntu1) plucky; urgency=medium
 
   * Introduce 570 series
+  * New upstream release 570.86.15 ERD1 (LP: #2095341)
 
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Tue, 21 Jan 2025 09:54:38 +0100
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 27 Jan 2025 11:54:39 +0100
