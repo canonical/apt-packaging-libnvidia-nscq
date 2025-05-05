@@ -1,3 +1,9 @@
+libnvidia-nscq-570 (570.148.03-0ubuntu1) questing; urgency=medium
+
+  * New upstream release 570.148.03 ERD4 (LP: #2109958)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 05 May 2025 11:59:05 +0200
+
 libnvidia-nscq-570 (570.133.20-0ubuntu1) plucky; urgency=medium
 
   * New upstream release 570.133.20 ERD3 (LP: #2107567)
