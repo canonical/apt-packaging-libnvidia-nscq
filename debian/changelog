@@ -1,3 +1,9 @@
+libnvidia-nscq-550 (550.163.01-0ubuntu2) plucky; urgency=medium
+
+  * Add transitionals to 570 (LP: #2114726)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 16 Jun 2025 17:39:52 +0200
+
 libnvidia-nscq-550 (550.163.01-0ubuntu1) plucky; urgency=medium
 
   * New upstream release 550.163.01 ERD9 (LP: #2107637)
