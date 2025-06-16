@@ -1,3 +1,9 @@
+libnvidia-nscq-550 (550.163.01-0ubuntu0.24.04.2) noble; urgency=medium
+
+  * Add transitionals to 5570 (LP: #2114726)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 16 Jun 2025 17:43:42 +0200
+
 libnvidia-nscq-550 (550.163.01-0ubuntu0.24.04.1) noble; urgency=medium
 
   * New upstream release 550.163.01 ERD9 (LP: #2107637)
