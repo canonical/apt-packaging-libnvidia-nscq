@@ -33,10 +33,6 @@ Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-#BRANCH#
 Architecture: #ARCH_LIST#
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Provides: libnvidia-nscq, nscq#SONAME#
-Replaces: libnvidia-nscq
-Conflicts: libnvidia-nscq
+Depends: libnvidia-nscq-570
 Description: NVSwitch Configuration and Query library
- NVIDIA NVSwitch Configuration and Query (NSCQ) library provides a
- stable driver API used by DCGM for monitoring NVSwitch devices.
+ Transitional package
