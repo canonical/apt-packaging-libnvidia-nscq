@@ -1,42 +1,5 @@
-libnvidia-nscq-570 (570.172.08-0ubuntu0.25.04.1) plucky; urgency=medium
+libnvidia-nscq-580 (580.65.03-0ubuntu0.25.04.1) plucky; urgency=medium
 
-  * New upstream release 570.172.08 (LP: #2117176)
+  * New upstream release 580.65.03 (LP: #2118389)
 
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Thu, 17 Jul 2025 19:53:40 +0200
-
-libnvidia-nscq-570 (570.158.01-0ubuntu0.25.04.1) plucky; urgency=medium
-
-  * New upstream release 570.158.01 ERD5 (LP: #2114898)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Wed, 18 Jun 2025 14:01:10 +0200
-
-libnvidia-nscq-570 (570.148.08-0ubuntu0.25.04.1) plucky; urgency=medium
-
-  * New upstream release 570.148.08 ERD4 (LP: #2109958)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Wed, 28 May 2025 10:23:45 +0200
-
-libnvidia-nscq-570 (570.148.03-0ubuntu0.25.04.1) plucky; urgency=medium
-
-  * New upstream release 570.148.03 ERD4 (LP: #2109958)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 05 May 2025 11:59:11 +0200
-
-libnvidia-nscq-570 (570.133.20-0ubuntu1) plucky; urgency=medium
-
-  * New upstream release 570.133.20 ERD3 (LP: #2107567)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Thu, 17 Apr 2025 15:16:58 +0200
-
-libnvidia-nscq-570 (570.124.06-0ubuntu1) plucky; urgency=medium
-
-  * New upstream release 570.124.06 ERD2 (LP: #2100845)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Tue, 04 Mar 2025 11:40:15 +0100
-
-libnvidia-nscq-570 (570.86.15-0ubuntu1) plucky; urgency=medium
-
-  * Introduce 570 series
-  * New upstream release 570.86.15 ERD1 (LP: #2095341)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 27 Jan 2025 11:54:39 +0100
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 28 Jul 2025 16:43:16 +0200
