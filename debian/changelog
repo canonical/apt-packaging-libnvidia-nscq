@@ -1,3 +1,9 @@
+libnvidia-nscq-580 (580.65.06-0ubuntu0.24.04.1) noble; urgency=medium
+
+  * New upstream release 580.65.06 (LP: #2118389)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Wed, 30 Jul 2025 13:25:07 +0200
+
 libnvidia-nscq-580 (580.65.03-0ubuntu0.24.04.1) noble; urgency=medium
 
   * New upstream release 580.65.03 (LP: #2118389)
