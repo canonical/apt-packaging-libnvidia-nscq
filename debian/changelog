@@ -1,3 +1,9 @@
+libnvidia-nscq-575 (575.57.08-0ubuntu0.22.04.2) jammy; urgency=medium
+
+  * EOL Transitionals to 580 (LP: #2120171)
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Wed, 20 Aug 2025 16:20:54 +0200
+
 libnvidia-nscq-575 (575.57.08-0ubuntu0.22.04.1) jammy; urgency=medium
 
   * New upstream release 575.57.08 ERD1 (LP: #2112636)
