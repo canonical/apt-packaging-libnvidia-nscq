@@ -1,4 +1,4 @@
-libnvidia-nscq-580 (580.82.07-0ubuntu0.20.04.1) focal; urgency=medium
+libnvidia-nscq-580 (580.82.07-0ubuntu0.20.04.3) bionic; urgency=medium
 
   * New upstream release 580.82.07 (LP: #2118901)
 
