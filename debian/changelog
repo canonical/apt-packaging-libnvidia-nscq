@@ -1,3 +1,9 @@
+libnvidia-nscq-535 (535.261.03-0ubuntu2) questing; urgency=medium
+
+  * Transition to 580
+
+ -- Kuba Pawlak <kuba.pawlak@canonical.com>  Thu, 04 Sep 2025 14:21:12 +0200
+
 libnvidia-nscq-535 (535.261.03-0ubuntu1) questing; urgency=medium
 
   * New upstream release 535.261.03 (LP: #2117177)
