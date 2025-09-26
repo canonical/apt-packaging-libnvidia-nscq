@@ -33,7 +33,9 @@ Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-570
 Architecture: amd64 arm64
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends:
+ nvidia-kernel-common-570-server (= ${binary:Version}),
+ ${misc:Depends}, ${shlibs:Depends}
 Provides: libnvidia-nscq, nscq2
 Replaces: libnvidia-nscq
 Conflicts: libnvidia-nscq
