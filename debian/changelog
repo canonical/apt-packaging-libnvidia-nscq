@@ -1,4 +1,4 @@
-libnvidia-nscq-580 (580.95.05-0ubuntu0.22.04.1) jammy; urgency=medium
+libnvidia-nscq-580 (580.95.05-0ubuntu0.22.04.2) jammy; urgency=medium
 
   * New upstream release 580.95.05 (LP: #2125754)
 
