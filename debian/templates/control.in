@@ -34,7 +34,7 @@ Standards-Version: 4.1.4
 Package: libnvidia-nscq-#BRANCH#
 Architecture: #ARCH_LIST#
 Depends:
- nvidia-kernel-common-#BRANCH#-server (= ${binary:Version}),
+ nvidia-kernel-common-#BRANCH#-server-#VERSION# [!i386],
  ${misc:Depends}, ${shlibs:Depends}
 Provides: libnvidia-nscq, nscq#SONAME#
 Replaces: libnvidia-nscq
