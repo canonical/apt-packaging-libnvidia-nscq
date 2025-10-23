@@ -34,7 +34,7 @@ Standards-Version: 4.1.4
 Package: libnvidia-nscq-580
 Architecture: amd64 arm64
 Depends:
- nvidia-kernel-common-580-server (= ${binary:Version}),
+ nvidia-kernel-common-580-server-580.95.05 [!i386],
  ${misc:Depends}, ${shlibs:Depends}
 Provides: libnvidia-nscq, nscq2
 Replaces: libnvidia-nscq
