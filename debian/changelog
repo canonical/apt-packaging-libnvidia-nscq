@@ -1,3 +1,9 @@
+libnvidia-nscq-580 (580.105.08-0ubuntu0.25.10.1) questing; urgency=medium
+
+  * New upstream release 580.105.08 ERD4 (LP: #2129766)
+
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Sun, 30 Nov 2025 16:58:45 -0500
+
 libnvidia-nscq-580 (580.95.05-0ubuntu2) questing; urgency=medium
 
   * Fix dependencies between packages (LP: #2129682)
