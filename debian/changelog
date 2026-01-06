@@ -1,41 +1,5 @@
-libnvidia-nscq-580 (580.105.08-0ubuntu1) resolute; urgency=medium
+libnvidia-nscq-590 (590.48.01-0ubuntu1) resolute; urgency=medium
 
-  * New upstream release 580.105.08 ERD4 (LP: #2129766)
+  * New upstream release 590.48.01 (LP: #2137575)
 
- -- Abdur Rahman <abdur.rahman@canonical.com>  Sun, 30 Nov 2025 16:58:40 -0500
-
-libnvidia-nscq-580 (580.95.05-0ubuntu2) questing; urgency=medium
-
-  * Fix dependencies between packages (LP: #2129682)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Thu, 23 Oct 2025 20:20:17 +0200
-
-libnvidia-nscq-580 (580.95.05-0ubuntu1) questing; urgency=medium
-
-  * New upstream release 580.95.05 (LP: #2125754)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Fri, 26 Sep 2025 15:19:13 +0200
-
-libnvidia-nscq-580 (580.82.07-0ubuntu1) questing; urgency=medium
-
-  * New upstream release 580.82.07 (LP: #2118901)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Fri, 29 Aug 2025 17:55:02 +0200
-
-libnvidia-nscq-580 (580.82.01-0ubuntu1) questing; urgency=medium
-
-  * New upstream release 580.82.01 (LP: #2121074)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Wed, 20 Aug 2025 17:35:25 +0200
-
-libnvidia-nscq-580 (580.65.06-0ubuntu1) questing; urgency=medium
-
-  * New upstream release 580.65.06 (LP: #2118389)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Wed, 30 Jul 2025 13:24:55 +0200
-
-libnvidia-nscq-580 (580.65.03-0ubuntu1) questing; urgency=medium
-
-  * New upstream release 580.65.03 (LP: #2118389)
-
- -- Kuba Pawlak <kuba.pawlak@canonical.com>  Mon, 28 Jul 2025 16:43:08 +0200
+ -- Jacob Martin <jacob.martin@canonical.com>  Tue, 06 Jan 2026 17:15:54 -0600
