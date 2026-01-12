@@ -1,3 +1,9 @@
+libnvidia-nscq-580 (580.126.09-0ubuntu0.24.04.1) noble; urgency=medium
+
+  * New upstream release 580.126.09 ERD5 (LP: #2138245)
+
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Mon, 12 Jan 2026 12:33:30 -0500
+
 libnvidia-nscq-580 (580.105.08-0ubuntu0.24.04.1) noble; urgency=medium
 
   * New upstream release 580.105.08 ERD4 (LP: #2129766)
