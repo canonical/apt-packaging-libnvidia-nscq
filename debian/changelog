@@ -2,6 +2,12 @@ libnvidia-nscq-535 (535.288.01-0ubuntu0.25.04.1) plucky; urgency=medium
 
   * New upstream release 535.288.01 (LP: #2138271)
 
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Wed, 14 Jan 2026 10:43:55 -0500
+
+libnvidia-nscq-535 (535.288.01-0ubuntu0.25.04.1) plucky; urgency=medium
+
+  * New upstream release 535.288.01 (LP: #2138271)
+
  -- Abdur Rahman <abdur.rahman@canonical.com>  Wed, 14 Jan 2026 09:46:01 -0500
 
 libnvidia-nscq-535 (535.288.01-0ubuntu0.25.04.1) plucky; urgency=medium
