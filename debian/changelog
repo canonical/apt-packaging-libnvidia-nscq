@@ -1,5 +1,5 @@
-libnvidia-nscq-590 (590.48.01-0ubuntu0.22.04.1) jammy; urgency=medium
+libnvidia-nscq-595 (595.58.03-0ubuntu0.22.04.1) jammy; urgency=medium
 
-  * New upstream release 590.48.01 (LP: #2137575)
+  * New upstream release 595.58.03 ERD (LP: #2146730)
 
- -- Jacob Martin <jacob.martin@canonical.com>  Tue, 06 Jan 2026 17:16:14 -0600
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Mon, 30 Mar 2026 23:40:11 -0400
