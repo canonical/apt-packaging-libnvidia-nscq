@@ -1,3 +1,9 @@
+libnvidia-nscq-570 (570.211.01-0ubuntu1.20.04.1) focal; urgency=medium
+
+  * Transition EOL 570 drivers to 580 (LP: #2147038)
+
+ -- Noah Wager <noah.wager@canonical.com>  Thu, 02 Apr 2026 13:27:17 -0700
+
 libnvidia-nscq-570 (570.211.01-0ubuntu0.20.04.1) focal; urgency=medium
 
   * New upstream release 570.211.01 ERD (LP: #2137576)
