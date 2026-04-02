@@ -25,7 +25,7 @@ Uploaders:
  Kuba Pawlak <kuba.pawlak@canonical.com>,
 Vcs-Git: git://github.com/canonical/apt-packaging-libnvidia-nscq.git
 Vcs-Browser: https://github.com/canonical/apt-packaging-libnvidia-nscq/tree/570
-Section: non-free/libs
+Section: non-free/oldlibs
 Priority: optional
 Build-Depends: debhelper (>= 10)
 XS-Autobuild: yes
@@ -33,12 +33,6 @@ Standards-Version: 4.1.4
 
 Package: libnvidia-nscq-570
 Architecture: amd64 arm64
-Depends:
- nvidia-kernel-common-570-server-570.211.01 [!i386],
- ${misc:Depends}, ${shlibs:Depends}
-Provides: libnvidia-nscq, nscq2
-Replaces: libnvidia-nscq
-Conflicts: libnvidia-nscq
+Depends: libnvidia-nscq-580
 Description: NVSwitch Configuration and Query library
- NVIDIA NVSwitch Configuration and Query (NSCQ) library provides a
- stable driver API used by DCGM for monitoring NVSwitch devices.
+ Transitional package for upgrades. This package can be safely removed.
