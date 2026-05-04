@@ -1,3 +1,9 @@
+libnvidia-nscq-595 (595.71.05-0ubuntu0.25.10.1) questing; urgency=medium
+
+  * New upstream release 595.71.05 ERD (LP: #2150787)
+
+ -- Jacob Martin <jacob.martin@canonical.com>  Mon, 04 May 2026 10:47:14 -0500
+
 libnvidia-nscq-595 (595.58.03-0ubuntu0.25.10.1) questing; urgency=medium
 
   * New upstream release 595.58.03 ERD (LP: #2146730)
