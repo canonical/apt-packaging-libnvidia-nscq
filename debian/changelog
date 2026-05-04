@@ -1,3 +1,9 @@
+libnvidia-nscq-595 (595.71.05-0ubuntu0.26.04.1) resolute; urgency=medium
+
+  * New upstream release 595.71.05 ERD (LP: #2150787)
+
+ -- Jacob Martin <jacob.martin@canonical.com>  Mon, 04 May 2026 10:16:17 -0500
+
 libnvidia-nscq-595 (595.58.03-0ubuntu3) resolute; urgency=medium
 
   * Transition libnvidia-nscq-590 to -595 (LP: #2146730)
