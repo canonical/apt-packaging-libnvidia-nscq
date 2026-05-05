@@ -1,3 +1,9 @@
+libnvidia-nscq-580 (580.159.03-0ubuntu0.18.04.1) bionic; urgency=medium
+
+  * New upstream release 580.159.03 ERD/UDA (LP: #2151130)
+
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Tue, 05 May 2026 02:32:27 -0400
+
 libnvidia-nscq-580 (580.126.20-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * New upstream release 580.126.20 ERD (LP: #2146749)
