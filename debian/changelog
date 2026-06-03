@@ -1,8 +1,8 @@
-libnvidia-nscq-580 (580.159.04-0ubuntu1) UNRELEASED; urgency=medium
+libnvidia-nscq-580 (580.159.04-0ubuntu1) stonking; urgency=medium
 
   * New upstream release 580.159.04 (LP: #2155192)
 
- -- Abdur Rahman <abdur.rahman@canonical.com>  Wed, 03 Jun 2026 15:23:15 -0400
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Wed, 03 Jun 2026 15:29:22 -0400
 
 libnvidia-nscq-580 (580.159.03-0ubuntu1) stonking; urgency=medium
 
