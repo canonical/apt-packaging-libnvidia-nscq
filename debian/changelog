@@ -1,3 +1,9 @@
+libnvidia-nscq-580 (580.173.02-0ubuntu0.22.04.1) UNRELEASED; urgency=medium
+
+  * New upstream version 580.173.02 (LP: #2158594)
+
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Tue, 30 Jun 2026 11:45:11 -0400
+
 libnvidia-nscq-580 (580.167.08-0ubuntu0.22.04.1) jammy; urgency=medium
 
   * New upstream version 580.167.08 (LP: #2158595)
