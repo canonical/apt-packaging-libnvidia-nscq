@@ -1,8 +1,8 @@
-libnvidia-nscq-615 (615.71.09-0ubuntu0.22.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-615 (615.71.09-0ubuntu0.22.04.1) jammy; urgency=medium
 
   * New upstream version 615.71.09 (LP: #2167002)
 
- -- Jacob Martin <jacob.martin@canonical.com>  Wed, 16 Sep 2026 16:51:41 -0500
+ -- Jacob Martin <jacob.martin@canonical.com>  Wed, 16 Sep 2026 16:52:12 -0500
 
 libnvidia-nscq-610 (610.57.04-0ubuntu0.22.04.3) jammy; urgency=medium
 
