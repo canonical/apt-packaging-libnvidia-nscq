@@ -51,3 +51,11 @@ Depends: libnvidia-nscq-615
 Description: NVSwitch Configuration and Query library (transitional package)
  Transitional package for upgrades. This package can be safely removed.
 
+Package: libnvidia-nscq-595
+Architecture: amd64 arm64
+Section: oldlibs
+Multi-Arch: no
+Depends: libnvidia-nscq-615
+Description: NVSwitch Configuration and Query library (transitional package)
+ Transitional package for upgrades. This package can be safely removed.
+
