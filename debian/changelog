@@ -1,8 +1,8 @@
-libnvidia-nscq-580 (580.196.07-0ubuntu0.18.04.1) UNRELEASED; urgency=medium
+libnvidia-nscq-580 (580.196.07-0ubuntu0.18.04.1) bionic; urgency=medium
 
   * New upstream version 580.196.07 (LP: #2174332)
 
- -- Abdur Rahman <abdur.rahman@canonical.com>  Wed, 18 Nov 2026 00:32:20 -0500
+ -- Abdur Rahman <abdur.rahman@canonical.com>  Wed, 18 Nov 2026 00:41:30 -0500
 
 libnvidia-nscq-580 (580.178.04-0ubuntu0.18.04.1) bionic; urgency=medium
 
